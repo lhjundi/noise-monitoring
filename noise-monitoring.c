@@ -42,8 +42,8 @@
 #define LED_COUNT 25
 #define abs(x) ((x < 0) ? (-x) : (x))
 
-// Timer interrupt interval (30ms)
-#define TIMER_INTERVAL_US -30000
+// Timer interrupt interval (40ms)
+#define TIMER_INTERVAL_US -40000
 
 // DMA channel and configuration
 uint dma_channel;
